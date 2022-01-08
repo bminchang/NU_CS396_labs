@@ -2,10 +2,36 @@ body * {
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /*
 Add some style blocks below this line to style the card.
 */
+main {
+    display: flex;
+}
+
+section {
+    margin: 75px;
+    border: solid 3px #CCC;
+    padding-bottom: 30px; 
+}
+
+section h2, section p, section button {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section p {
+    line-height: 1.4em;
+}
+
+section img {
+    width: 100%;
+}
